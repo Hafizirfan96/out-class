@@ -1,0 +1,209 @@
+ 
+.whats_new_slider .card img {
+    max-width: 137px;
+}.whats_new_slider .card .content h2 {
+    font-size: 23px;
+    max-width: 200px;
+    font-weight: bold;
+        margin-bottom: 0;
+    text-transform: uppercase;
+}
+.whats_new_slider .card .content {
+    display: flex;
+    align-items: center;
+}
+  .whats_new_slider{
+    margin: 40px 0;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+  }
+  .whats_new_slider .card .btn_linke{
+    position: absolute;
+  }
+
+
+
+  .whats_new_slider .card {
+    position: relative;
+     border: 3px solid #1CC9D2;
+    border-radius: 20px;
+    min-height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 390px;
+    padding: 20px;
+    background:white;
+}
+.whats_new_slider .card .btn_linke {
+    position: absolute;
+    bottom: 12px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #1CC9D2
+}
+.whats_new_slider .card .btn_linke:hover{
+    text-decoration: none;
+}
+
+.whats_new_slider {
+    padding: 40px 40px;
+    background: #F2F2F2;
+    border-radius: 30px;
+}
+.whats_new_slider h4 img {
+    margin-left: 20px;
+}
+.whats_new_slider h4 {
+    font-size: 34px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+.whats_new_slider .owl-carousel .owl-nav button.owl-prev,
+.whats_new_slider .owl-carousel .owl-nav button.owl-next{
+        background: #FECE53;
+    color: inherit;
+    border: none;
+    padding: 0!important;
+    font: inherit;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.whats_new_slider .owl-carousel .owl-nav.disabled {
+    display: block;
+}
+.whats_new_slider button.owl-prev {
+    position: absolute;
+    top: 69px;
+    left: -57px;
+}
+.whats_new_slider button.owl-next{
+    position: absolute;
+    top: 69px;
+    right: -57px;
+}
+
+/*Why_our_students_content*/
+
+.Why_our_students_content {
+    background: url('../images/shap.png');
+    background-size: cover;
+   background-position: center;
+   min-height: 300px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+.Why_our_students_content p {
+    font-size: 20px;
+    max-width: 466px;
+    text-align: center;
+}
+.Why_our_students h4 {
+    font-size: 34px;
+    letter-spacing: 2.23px;
+    font-weight: bold;
+    margin-bottom: 48px;
+}
+.Why_our_students h4 span
+{
+    color: #1CC9D2;
+}
+.Why_our_students ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    text-align: center;
+}
+
+.Why_our_students ul li {
+    color: #1CC9D2;
+    font-size: 20px;
+    margin: 0px 8px 0 8px;
+    border-right: 2px solid #D5D5D5;
+}
+.img_one img {
+    max-width: 189px;
+    padding: 0 11px; 
+}
+
+.item_one {
+    padding: 17px;
+}
+ .Why_our_students.whats_new_slider {
+    background: none;
+    padding: 0;
+    box-shadow: none;
+    margin: 20px 0;
+}
+.box_shap{
+    height: 100px;
+    width: 100%;
+    border: 1px solid #6bcacc;
+    border-left: 0;
+    border-right: 0;
+    box-shadow: 20px 4px 20px 20px #d2f5f5;
+}
+
+
+.whats_new_slider.product_slider_wrap {
+    padding: initial;
+    background: no-repeat;
+    box-shadow: none;
+}
+.product_slider_wrap button.owl-prev,
+.product_slider_wrap button.owl-next {
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    }
+
+.product_slider_wrap button.owl-prev {
+    left: -21px !important;
+}
+.product_slider_wrap button.owl-next {
+    right: -21px !important;
+}
+.whats_new_slider.product_slider_wrap .card {
+    border-radius: 25px;
+    border: none;
+    padding: 25px; 
+    flex: unset !important;
+    justify-content: unset !important; 
+    align-items: unset !important;
+}
+.whats_new_slider.product_slider_wrap .card h5 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+    text-align: left !important;
+}
+
+.whats_new_slider.product_slider_wrap .card p {
+    font-size: 17px;
+     text-align: left !important;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.bg_lit_blue{background: #e9e0ff !important;}
+.bg_lit_red{background: #ffd9d8 !important;}
+.bg_lit_yellow{background: #fef0cd !important; }
+
+.whats_new_slider.product_slider_wrap .img_slider img {
+    border-radius: 50%;
+    width: 200px !important;
+    margin: 16px auto;
+}
+.img_slider {
+    text-align: center;
+}
+

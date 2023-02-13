@@ -1,0 +1,14 @@
+.dynamic-star-rating {
+  display: flex;
+  align-items: center;
+}
+
+.dynamic-star-container {
+  display: flex;
+}
+
+.dynamic-star-container:not(:last-child) {
+  margin-right: 5px;
+}
+
+/*# sourceMappingURL=vendors~components-StudentRating.7f15d07bc681ad822743.css.map*/
